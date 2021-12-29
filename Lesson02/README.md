@@ -24,11 +24,3 @@ Node.js服务运行
 4. req处理完成后，调用I/O，结束req(非阻塞调用)
 
 事件循环处理模式中，线程不用等待req处理完后在进行下个req的处理，而是将所有的req请求放入到队列之中，然后采用非同步的方式，等待req处理完后再调用I/O资源，然后结束req。
-
-## 课程文件
-
-https://github.com/komavideo/LearnNodeJS
-
-## 小马视频频道
-
-http://komavideo.com

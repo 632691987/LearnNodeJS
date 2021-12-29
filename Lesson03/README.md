@@ -29,11 +29,3 @@ console.log("Helo World!");
 var mystr = "Helo Node.js!";
 console.log(mystr);
 ~~~
-
-## 课程文件
-
-https://github.com/komavideo/LearnNodeJS
-
-## 小马视频频道
-
-http://komavideo.com

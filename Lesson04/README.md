@@ -35,11 +35,3 @@ updb2(function () {
 });
 console.log("I like Nodejs.");
 ~~~
-
-## 课程文件
-
-https://github.com/komavideo/LearnNodeJS
-
-## 小马视频频道
-
-http://komavideo.com

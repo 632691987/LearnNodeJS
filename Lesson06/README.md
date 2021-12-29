@@ -34,11 +34,3 @@ server.listen(config.port, config.hostname, () => {
     console.log(`Server running at http://${config.hostname}:${config.port}/`);
 });
 ~~~
-
-## 课程文件
-
-https://github.com/komavideo/LearnNodeJS
-
-## 小马视频频道
-
-http://komavideo.com

@@ -37,7 +37,3 @@ https://nodejs.org/
 * 原代码共享
   - GitHub  
     https://github.com/komavideo/LearnNodeJS
-
-## 小马视频频道
-
-http://komavideo.com
