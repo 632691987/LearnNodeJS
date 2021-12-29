@@ -1,7 +1,7 @@
 const http = require('http');
 const fs = require('fs');
 const ejs = require('ejs');
-var template = fs.readFileSync(__dirname + '\\..\\Lesson09\\helo.ejs', 'utf-8');
+var template = fs.readFileSync(__dirname + '/helo.ejs', 'utf-8');
 const server = http.createServer((req, res) => {
     var data = ejs.render(template, {
         title: 'helo ejs',
