@@ -1,10 +1,5 @@
 Node.js入门
 =============
-
-## Youtube视频讲解
-
-https://www.youtube.com/playlist?list=PLliocbKHJNwvbitOJ73M04PUoJae79kEg
-
 ## 课程详细
 
 01. 什么是Node.js？
@@ -24,11 +19,3 @@ https://www.youtube.com/playlist?list=PLliocbKHJNwvbitOJ73M04PUoJae79kEg
 15. 读出MongoDB文档
 16. Promise帮我逃出地狱
 17. 逃出地狱Go!Go!Go!
-
-## 课程文件
-
-https://github.com/komavideo/LearnNodeJS
-
-## 小马视频频道
-
-http://komavideo.com/
