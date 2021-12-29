@@ -40,24 +40,16 @@ function dbupAsync(sql) {
     });
     return p;
 }
-dbupAsync("2.sql1")
+dbupAsync("1.sql1")
     .then(() => dbupAsync("2.sql2"))
     .then(() => dbupAsync("3.sql3"));
 
 // 代码更加简洁的async/await
 async function upAllDB() {
-    const result1 = await dbupAsync("3.sql1");
-    const result2 = await dbupAsync("3.sql2");
+    const result1 = await dbupAsync("1.sql1");
+    const result2 = await dbupAsync("2.sql2");
     const result3 = await dbupAsync("3.sql3");
     console.log(result1, result2, result3);
 }
 upAllDB();
 ~~~
-
-## 课程文件
-
-https://github.com/komavideo/LearnNodeJS
-
-## 小马视频频道
-
-http://komavideo.com
